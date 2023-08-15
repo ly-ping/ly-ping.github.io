@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ping.petservice.mapper.UserMapper"><!---->
+    <!--分页查询用户信息-->
+    <!--<select id="selectUserList" resultType="com.example.demo.entity.User">-->
+        <!--select * from user-->
+        <!--<where>-->
+            <!--<if test="screenname != null and screenname != ''">-->
+                <!--and screenname like concat('%', #{screenname}, '%')-->
+            <!--</if>-->
+        <!--</where>-->
+        <!--order by create_time desc-->
+    <!--</select>-->
+
+    <!--<select id="selectUserList" resultMap="BaseResultMap">-->
+        <!--select * from user-->
+        <!--<if test="user != null">-->
+            <!--<where>-->
+                <!--<if test="user.screenname != null and user.screenname != ''">-->
+                    <!--and screenname like concat('%', #{user.screenname}, '%')-->
+                <!--</if>-->
+                <!--<if test="user.phone != null and user.phone != ''">-->
+                    <!--and phone like concat('%', #{user.phone}, '%')-->
+                <!--</if>-->
+            <!--</where>-->
+        <!--</if>-->
+    <!--</select>-->
+
+</mapper>
